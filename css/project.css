@@ -44,11 +44,11 @@ img{
 *************************************************/
 header{
     padding:1rem 2rem;
-    color: black;
+    color: #0a0a0a;
     background-image: url("../img/largebkphoto.jpg");
     background-size: cover;
     border-style: solid;
-    border-color: slateblue;
+    border-color: #63d8d2;
     border-width:thick;
     min-height: 300px;
     
@@ -58,13 +58,13 @@ header{
 header > h1{
     text-align: center;
     font-style:oblique;
-    text-emphasis-color: slateblue;
+    text-emphasis-color: #63d8d2;
     font-size: 4rem;
 }
 header > h2{
   text-align: center;
   font-size:2rem;
-color: darkgray;
+color: #5c5e5e;
 }
 /*************************************************
             NAVMENU
@@ -142,7 +142,7 @@ footer{
     padding:1rem 2rem;
     display: flex;
     flex-direction: column;
-    background-color: lightgrey;
+    background-color: #636063;
 }
 .foot nav{
     display: flex;
@@ -216,25 +216,25 @@ display: inline-flex;
             MEDIA QUERIES for layout
 *************************************************/
 @media (max-width: 599px){
-   header {border-color: slateblue;}
+   header {border-color: #6142aa;}
    header > h1{
-       color: black;}
-    h1 {color: slateblue;}
-    h2 {color: slateblue;}
+       color: #050405;}
+    h1 {color: #6142aa;}
+    h2 {color: #6142aa;}
     
 
 }
 @media (min-width: 600px) and (max-width:999px){
-    header {border-color: red;}
+    header {border-color: #f7a23b;}
      header > h1{
-       color: black;}
-    h1 {color: red;}
-    h2 {color: red;}
+       color: #050405;}
+    h1 {color: #f7a23b;}
+    h2 {color: #f7a23b;}
 }
 @media (min-width: 1000px){
-    header {border-color: hotpink;}
+    header {border-color: #f442e2;}
      header > h1{
-       color: black;}
-    h1 {color: hotpink;}
-    h2 {color: hotpink;}
+       color: #050405;}
+    h1 {color: #f442e2;}
+    h2 {color: #f442e2;}
 }
